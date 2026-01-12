@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    
+    <title>Frontend Mentor | Bento grid</title>
+    
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="./assets/images/favicon-32x32.png"
+        />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+   
+    <style>
+      .box1,
+      .box2,
+      .square1,
+      .square2,
+      .square3 {
+        border: 2px solid red;
+      }
+      .square1,
+      .square2,
+      .square3 {
+        border: 2px solid blue;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-3 box1">
+              <!-- <p>Hellooooo</p> -->
+
+              <div
+                class="card p-3 mb-3 w-75 h-50"
+                style="background-color: hsl(31, 66%, 93%)"
+              >
+                <p class="fs-4 fw-semibold lh-1">
+                  Create and schedule content
+                  <span class="fst-italic" style="color: hsl(256, 67%, 59%)">
+                    quicker.
+                  </span>
+                </p>
+                <img
+                  class="img-fluid mt-2"
+                  src="assets/images/illustration-create-post.webp"
+                  alt="Content Image"
+                />
+              </div>
+
+              <div
+                class="card p-3  mb-3 w-75 h-50 pb-0"
+                style="background-color: hsl(39, 100%, 71%)"
+              >
+                <p class="fs-3 fw-semibold lh-1 p-2 pb-0">
+                  Write your content using AI.
+                </p>
+                <img
+                  class="img-fluid mt-2 h-45 "
+                  src="assets/images/illustration-ai-content.webp"
+                  alt="AI Content"
+                  style="max-width: 120px"
+                />
+              </div>
+            </div>
+
+            <div class="col-9 box2">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 square1">
+                    <p>1111111111</p>
+                    <div class="row">
+                      <!-- First Card -->
+                      <div class="col-12 mb-3">
+                        <div
+                          class="card p-3 d-flex justify-content-center align-items-center"
+                          style="
+                            background-color: blueviolet;
+                            color: white;
+                            text-align: center;
+                          "
+                        >
+                          <h1>Social Media 10x</h1>
+                          <h2>Faster with AI</h2>
+                          <img
+                            class="img-fluid mt-2"
+                            src="assets/images/illustration-five-stars.webp"
+                            alt="Five Stars"
+                            style="width: 120px"
+                          />
+                          <h6>Over 4,000 5-star reviews</h6>
+                        </div>
+                      </div>
+
+                      <!-- Second Row of Cards -->
+                      <div class="row">
+                        <!-- First Column -->
+                        <div class="col-12 col-sm-6 mb-3">
+                          <div class="card p-3">
+                            <img
+                              class="img-fluid mt-2"
+                              src="assets/images/illustration-multiple-platforms.webp"
+                              alt="Multiple Platforms"
+                              style="width: 120px; height: 35px"
+                            />
+                            <p>Manage multiple accounts and platforms.</p>
+                          </div>
+                        </div>
+
+                        <!-- Second Column -->
+                        <div class="col-12 col-sm-6 mb-3">
+                          <div class="card p-3">
+                            <p>Maintain a consistent posting schedule.</p>
+                            <img
+                              class="img-fluid mt-2"
+                              src="assets/images/illustration-consistent-schedule.webp"
+                              alt="Consistent Schedule"
+                              style="width: 120px; height: 90px"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-4 square2">
+                    <p>H222222222222222222</p>
+                    <div class="card p-3">
+                      Schedule to social media.
+                      <img
+                        class="img-fluid mt-2 h-25 d-inline-block"
+                        src="assets/images/illustration-schedule-posts.webp"
+                        alt="Schedule Posts"
+                        style="width: 120px"
+                      />
+                      Optimize post timings to publish content at the perfect
+                      time.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row square3 pb-3">
+                  <div class="col-12 text-center">
+                    <p>33333333333333333</p>
+                    <div class="row">
+                      <div class="col-4">
+                        <div class="card p-3">
+                          56% faster audience growth
+                          <img
+                            class="img-fluid mt-2 h-25 d-inline-block"
+                            src="assets/images/illustration-audience-growth.webp"
+                            alt="Audience Growth"
+                            style="width: 120px"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-8">
+                        <div
+                          class="card p-3 d-flex flex-row"
+                          style="background-color: blueviolet"
+                        >
+                          <img
+                            class="img-fluid h-75"
+                            src="assets/images/illustration-grow-followers.webp"
+                            alt="Grow Followers"
+                            style="width: 120px"
+                          />
+                          <div class="col-9" style="color: white">
+                            Grow followers with non-stodiv content.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
