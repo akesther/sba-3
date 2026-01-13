@@ -4,15 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-    
+
     <title>Frontend Mentor | Bento grid</title>
-    
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="./assets/images/favicon-32x32.png"
-        />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
@@ -21,7 +21,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-   
+
     <style>
       .box1,
       .box2,
@@ -41,17 +41,17 @@
     <main>
       <section>
         <div class="container">
-          <div class="row">
-            <div class="col-12 col-md-3 box1">
+          <div class="row ">
+            <div class="col-4 col-md-3 box1 align-middle">
               <!-- <p>Hellooooo</p> -->
 
               <div
-                class="card p-3 mb-3 w-75 h-50"
+                class="card p-3 mb-2 w-75 h-48 mt-2"
                 style="background-color: hsl(31, 66%, 93%)"
               >
                 <p class="fs-4 fw-semibold lh-1">
                   Create and schedule content
-                  <span class="fst-italic" style="color: hsl(256, 67%, 59%)">
+                  <span class="fst-italic" style="color: blueviolet">
                     quicker.
                   </span>
                 </p>
@@ -63,29 +63,29 @@
               </div>
 
               <div
-                class="card p-3  mb-3 w-75 h-50 pb-0"
+                class="card p-3 mb-1 w-75 h-48 pb-3"
                 style="background-color: hsl(39, 100%, 71%)"
               >
-                <p class="fs-3 fw-semibold lh-1 p-2 pb-0">
+                <p class="fs-5 fw-bold lh-1 p-2 pb-1 pt-1">
                   Write your content using AI.
                 </p>
                 <img
-                  class="img-fluid mt-2 h-45 "
+                  class="img-fluid mt-2 h-25"
+                  style="max-width: 150px"
                   src="assets/images/illustration-ai-content.webp"
                   alt="AI Content"
-                  style="max-width: 120px"
                 />
               </div>
             </div>
 
-            <div class="col-9 box2">
+            <div class="col-8 box2">
               <div class="container">
                 <div class="row">
                   <div class="col-8 square1">
-                    <p>1111111111</p>
+                    <!-- <p>1111111111</p> -->
                     <div class="row">
                       <!-- First Card -->
-                      <div class="col-12 mb-3">
+                      <div class="col-12 mb-3 mt-3 w-80">
                         <div
                           class="card p-3 d-flex justify-content-center align-items-center"
                           style="
@@ -94,13 +94,18 @@
                             text-align: center;
                           "
                         >
-                          <h1>Social Media 10x</h1>
-                          <h2>Faster with AI</h2>
+                          <h1>
+                            Social Media
+                            <span class="" style="color: hsl(39, 100%, 71%)"
+                              >10x</span
+                            >
+                          </h1>
+                          <h2 class="fst-italic">Faster with AI</h2>
                           <img
                             class="img-fluid mt-2"
+                            style="width: 120px"
                             src="assets/images/illustration-five-stars.webp"
                             alt="Five Stars"
-                            style="width: 120px"
                           />
                           <h6>Over 4,000 5-star reviews</h6>
                         </div>
@@ -113,23 +118,33 @@
                           <div class="card p-3">
                             <img
                               class="img-fluid mt-2"
+                              style="width: 120px; height: 35px"
                               src="assets/images/illustration-multiple-platforms.webp"
                               alt="Multiple Platforms"
-                              style="width: 120px; height: 35px"
                             />
-                            <p>Manage multiple accounts and platforms.</p>
+                            <p class="fs-5 fw-semibold lh-1">
+                              Manage multiple accounts and platforms.
+                            </p>
                           </div>
                         </div>
 
                         <!-- Second Column -->
                         <div class="col-12 col-sm-6 mb-3">
-                          <div class="card p-3">
-                            <p>Maintain a consistent posting schedule.</p>
+                          <div
+                            class="card p-3"
+                            style="
+                              background-color: hsl(39, 100%, 71%);
+                              height: 150px;
+                            "
+                          >
+                            <p class="fs-5 fw-semibold lh-1">
+                              Maintain a consistent posting schedule.
+                            </p>
                             <img
-                              class="img-fluid mt-2"
+                              class="img-fluid mt-2 mb-0 pb-0"
+                              style="width: 120px; height: 55px"
                               src="assets/images/illustration-consistent-schedule.webp"
                               alt="Consistent Schedule"
-                              style="width: 120px; height: 90px"
                             />
                           </div>
                         </div>
@@ -137,33 +152,35 @@
                     </div>
                   </div>
                   <div class="col-4 square2">
-                    <p>H222222222222222222</p>
-                    <div class="card p-3">
-                      Schedule to social media.
+                    <!-- <p>H222222222222222222</p> -->
+                    <div
+                      class="card p-3 p-3 mt-3 mb-3 "
+                      style="background-color: hsl(254, 88%, 90%)"
+                    >
+                      <p class="fs-5 fw-semibold lh-1">Schedule to social media.</p>
                       <img
                         class="img-fluid mt-2 h-25 d-inline-block"
+                        style="width: 120px"
                         src="assets/images/illustration-schedule-posts.webp"
                         alt="Schedule Posts"
-                        style="width: 120px"
                       />
-                      Optimize post timings to publish content at the perfect
-                      time.
+                      <p class=" " style="font-size: x-small;">Optimize post timings to publish content at the perfect time.</p>
                     </div>
                   </div>
                 </div>
 
-                <div class="row square3 pb-3">
+                <div class="row square3 pb-3 pt-2">
                   <div class="col-12 text-center">
-                    <p>33333333333333333</p>
+                    <!-- <p>33333333333333333</p> -->
                     <div class="row">
                       <div class="col-4">
                         <div class="card p-3">
                           56% faster audience growth
                           <img
                             class="img-fluid mt-2 h-25 d-inline-block"
+                            style="width: 120px"
                             src="assets/images/illustration-audience-growth.webp"
                             alt="Audience Growth"
-                            style="width: 120px"
                           />
                         </div>
                       </div>
@@ -174,12 +191,12 @@
                         >
                           <img
                             class="img-fluid h-75"
+                            style="width: 120px"
                             src="assets/images/illustration-grow-followers.webp"
                             alt="Grow Followers"
-                            style="width: 120px"
                           />
-                          <div class="col-9" style="color: white">
-                            Grow followers with non-stodiv content.
+                          <div class="col-9 p-4 " style="color: white">
+                            <p class="p-4 pt-0 pb-0">Grow followers with non-stodiv content.</p>
                           </div>
                         </div>
                       </div>
